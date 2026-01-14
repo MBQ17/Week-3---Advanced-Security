@@ -1,0 +1,36 @@
+Kali Linux Commands:
+sudo apt update && sudo apt upgrade -y
+nmap --version
+nmap 127.0.0.1
+nmap 192.168.1.10
+nmap -sV 192.168.1.10
+sudo nmap -sS 192.168.1.10
+nmap -A 192.168.1.10
+nmap -p- 192.168.1.10
+nmap -sV 192.168.1.10 -oN nmap-report.txt
+dirb http://192.168.1.10
+gobuster dir -u http://192.168.1.10 -w /usr/share/wordlists/dirb/common.txt
+ip a
+ip route
+whoami
+gnome-screenshot -i
+-------------------------------------------------------------------------------
+Windows / PowerShell Commands:
+nmap --version
+nmap 127.0.0.1
+nmap -sV 127.0.0.1
+nmap -p- 127.0.0.1
+nmap -sV 127.0.0.1 -oN nmap-result.tx
+-------------------------------------------------------------------------------
+Node.js / Logging (Winston):
+mkdir security-week3
+cd security-week3
+npm init -y
+npm install winston
+node logger.js
+-------------------------------------------------------------------------------
+Browser Test Payload:
+npm install
+npm start
+http://localhost:3000/login?username=' OR '1'='1
+-------------------------------------------------------------------------------
