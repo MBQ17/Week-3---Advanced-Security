@@ -1,0 +1,13 @@
+Week 3 focused on practical security testing, logging implementation, and final documentation. The main objective was to understand how basic security weaknesses can be identified, 
+monitored, and reported in a real-world application environment.
+
+In this week, basic penetration testing was performed using Nmap. Scans were executed on both localhost and target machines to identify open ports, running services, and possible security exposure. 
+Different scan techniques such as service version detection, full port scanning, and aggressive scans were used to simulate how attackers gather information during the reconnaissance phase.
+
+To support monitoring and auditing, application logging was implemented using the Winston logging library in a Node.js environment. 
+Logs were configured to be displayed on the console and saved into a file (security.log). This helps track application events and provides useful information during debugging and security analysis.
+
+A basic SQL Injection simulation was also tested to demonstrate the importance of input validation. This showed how unvalidated user input can be misused if proper security controls are not applied.
+
+Additionally, a security checklist was created that includes industry best practices such as input validation, use of HTTPS, password hashing and salting, secure configuration, and regular logging. 
+These practices help reduce common vulnerabilities in applications.
